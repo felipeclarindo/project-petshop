@@ -1,0 +1,46 @@
+* {
+    color: #000000
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    height: 120px;
+    background-color:rgb(17, 172, 17);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 80px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+header nav a {
+    
+    color:#FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    font-weight: 600;
+    font-size: 26px;
+    transition: 0.5%;
+    opacity: 0.6;
+}
+
+
+header nav .selecionado {
+    background-color: black;
+}
+
+
+#inicio { 
+    display: flex;
+    align-items: center;
+    gap: 32;
+}
